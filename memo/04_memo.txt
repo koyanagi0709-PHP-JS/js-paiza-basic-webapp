@@ -1,0 +1,10 @@
+router.get
+
+解説：
+API リファレンス - Express 4.x
+https://expressjs.com/en/4x/api.html#router.METHOD
+
+router.get(endpoint, callbackFunction); を記述していくことでアプリケーションを実装していきます。
+具体的には、アプリケーションが endpoint に GET リクエストを受けたとき、callbackFunction を実行します。
+callbackFunction の引数にはリクエスト、レスポンスを表すオブジェクトの他、次に行われるミドルウェア関数（よく next という関数として書かれます）などが渡されます。
+詳しくはリンクを参照ください。
