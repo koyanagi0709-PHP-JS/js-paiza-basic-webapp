@@ -1,0 +1,18 @@
+express render()について
+
+説明：
+API リファレンス - Express 4.x
+https://expressjs.com/ja/api.html
+
+指定した名前の view ファイルを HTML にレンダリングし、その結果の HTML 文字列をクライアントに配送します。
+このレッスンでは view として pug を用いています。
+その記法は HTML を簡略に書いたようなもので、詳しくは下のリンクをご確認ください。
+
+pubについて
+
+説明：
+Getting Started - pug
+https://pugjs.org/api/getting-started.html
+
+pug という HTML を簡潔にしたような記法のマークアップ言語です。
+express などのテンプレートエンジンとして用いられ、HTML にパースされてクライアント側に配送されます。
