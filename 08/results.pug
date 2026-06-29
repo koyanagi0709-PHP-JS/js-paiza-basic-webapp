@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title 投票ありがとう | JavaScript 講座
+    include head
+  body
+    div#wrapper
+      h1 #{fullName}に投票しました！
+      p: span 現在の獲得票数
+      p  #{count}
+
+      img.main-image(src="/img/thanks.png" alt="投票ありがとう！" width="800" height="400")
+
+      a.a-btn(href="/votes") ぱいじょ！人気投票に戻る
