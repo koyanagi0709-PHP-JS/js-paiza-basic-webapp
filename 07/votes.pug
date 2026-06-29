@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title ぱいじょ！人気投票開催中！
+    include head
+  body
+    div#wrapper
+      h1
+        img(src="/img/h1.png" alt="ぱいじょ！人気投票開催中！" width="457" height="207")
+
+      ul
+        li
+          a(href="/votes/kyoko")
+            img(src="/img/kyoko.png" alt="霧島京子" width="256" height="400")
+            p 霧島京子に投票する
+              span #{kyokoCount}票
+
+        li
+          a(href="/votes/rio")
+            img(src="/img/rio.png" alt="六村リオ" width="256" height="400")
+            p 六村リオに投票する
+              span #{rioCount}票
+
+        li
+          a(href="/votes/tsubame")
+            img(src="/img/tsubame.png" alt="緑川つばめ" width="256" height="400")
+            p 緑川つばめに投票する
+              span #{tsubameCount}票
